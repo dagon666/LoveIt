@@ -2,6 +2,7 @@
 
 <div class="post-footer" id="post-footer">
     <div class="post-info">
+
         <div class="post-info-line">
             <div class="post-info-mod">
                 <span>
@@ -42,6 +43,13 @@
                     {{- partial "plugin/share.html" . -}}
                 </span>
             </div>
+        </div>
+
+        {{- /* KoFi button */ -}}
+        <div class="post-info-line">
+            <span>
+                {{- partial "plugin/kofi.html" . -}}
+            </span>
         </div>
     </div>
 
